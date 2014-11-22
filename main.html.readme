@@ -1,0 +1,33 @@
+<div id="text">
+
+  <h2>$\LaTeX$/MathJax and hyperlinks in Ace editor code comments</h2>
+
+  [http://puzlet.org/, Puzlet] is about scientific computing in the
+  browser.  For scientific computing code, it's useful to include math
+  and hyperlinks in code comments, as [http://stemblab.github.io/irls/
+  this example] shows.
+
+  The CoffeeScript code below shows how to do this.
+
+  Click in the CoffeeScript editor to edit the math/link source.
+  Click outside of the editor to see the rendered math/links.
+
+  This math/link rendering feature is now standard in Puzlet blabs.
+  You can also create a hyperlink for any identifier (e.g., variable,
+  function call).  This is particularly useful for links to functions
+  defined in other blabs.
+
+  <hr>
+
+  <div class="left_col">
+    <div data-file="main.coffee"></div>
+  </div>    
+
+  <div class="right_col">
+    <div data-eval="main.coffee"></div>
+  </div>
+
+  <div class="clear"></div>
+
+</div>
+
